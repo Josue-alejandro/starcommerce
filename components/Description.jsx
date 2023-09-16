@@ -7,7 +7,7 @@ const Description = () => {
             <div className="descriptionInnerDiv">
                 <div>
                     <div className="imageContainer">
-                    <Image width={220} src={man}/>
+                    <Image alt="hombreDescripcion" width={220} src={man}/>
                     </div>
                 </div>
                 <div>

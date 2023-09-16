@@ -6,8 +6,17 @@ import Cart from "@/components/Cart"
 import menu from "@/assets/menu.png"
 
 const Hero = (props) => {
-    const [cartShow, useCartShow] = useState(false)
-    const [menuShow, useMenuShow] = useState(false)
+    const [cartShow, setCartShow] = useState(false)
+    const [menuShow, setMenuShow] = useState(false)
+
+    const menuHandler = () => {
+        setMenuShow(!menuShow)
+    }
+
+    const cartHandler = () => {
+        setCartShow(!cartShow)
+    }
+
     return(
         <div className="heroDiv" id="home">
             <div>
@@ -17,11 +26,11 @@ const Hero = (props) => {
                         <li><a href="#about">Sobre Nosotros</a></li>
                         <li><a href="#products">Productos</a></li>
                         <li><a href="#review">Reseñas</a></li>
-                        <li onClick={() => useCartShow(!cartShow)}><Image width={25} src={Shop} /></li>
+                        <li onClick={() => cartHandler()}><Image width={25} src={Shop} /></li>
                         <div className="notificationBubble">{props.count}</div>
                     </ul>
                     <div className="mobileIcon">
-                        <Image width={50} src={menu} onClick={()=> useMenuShow(!menuShow)} />
+                        <Image width={50} src={menu} onClick={() => menuHandler()} />
                     </div>
                     {menuShow ? 
                     <div className="mobileMenu">
@@ -40,7 +49,7 @@ const Hero = (props) => {
                 <div className="rectangle">
                     <h1 className="titleName">Galaxy Styles</h1>
                     <div>
-                        <Image className="separatorTitle" src={Stars} />
+                        <Image alt="startImage" className="separatorTitle" src={Stars} />
                     </div>
                     <h2>A New Horizon</h2>
                 </div>

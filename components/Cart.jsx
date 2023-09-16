@@ -14,8 +14,8 @@ const Cart = (props) => {
                     <p><b>Precio</b></p>
                 </div>
                 {props.cartList.map((li) => (
-                    <div className="item">
-                        <Image alt={li.img} width={150} height={150} src={li.img} />
+                    <div className="item" key={li.producto}>
+                        <Image alt={li.producto} width={150} height={150} src={li.img} />
                         <p>{li.producto}</p>
                         <p>{li.precio}</p>
                     </div>

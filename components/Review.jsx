@@ -6,7 +6,7 @@ const Review = () => {
         <div className="reviewDiv" id="review">
             <h2 className="reviewTitle">Nuestros Clientes</h2>
             <div className="review">
-                <Image className="pic" src={Review1} width={140} />
+                <Image alt="fotodeperfil" className="pic" src={Review1} width={140} />
                 <p className="reviewText">
                 Es una tienda de moda con un estilo realmente único. Su selección de prendas de diseñadores emergentes y su atención al detalle la hacen destacar en el mundo de la moda.
                 </p>
