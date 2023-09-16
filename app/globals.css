@@ -1,0 +1,410 @@
+@font-face {
+  font-family: titleFont;
+  src: url('../fonts/Yipes.otf');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #100732;
+}
+
+.heroDiv{
+  height: 100vh;
+  background-image: url('../assets/portada.png');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.navList{
+  display: flex;
+  flex-direction: row;
+  padding: 1.8em;
+  justify-content: right;
+}
+
+.navList li {
+  list-style: none;
+  margin-left: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titleDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  font-family: titleFont;
+}
+
+.titleName{
+  font-size:50px;
+}
+
+.rectangle{
+  background-image: url('../assets/Rectangle.png');
+  width: 542px;
+  height: 255px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.featuresDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Card-Star{
+  border: 1px solid white;
+  position: relative;
+  top: -100px;
+  width: 280px;
+  height: 400px;
+  padding: 2em;
+  text-align: center;
+}
+
+.inner-Card{
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureDescription{
+  font-size: 14px;
+  max-width: 240px;
+}
+
+.card-item{
+  margin-top: 2.2em;
+}
+
+.descriptionDiv{
+  color: white;
+  border-top: 1px solid #299FF4;
+  border-bottom: 1px solid #299FF4;
+  padding: 2em 0em 2em 0em;
+}
+
+.descriptionInnerDiv{
+  display: flex;
+  background-color: #299FF4;
+  justify-content: space-evenly;
+  padding: 3em;
+}
+
+.descriptionText {
+  max-width: 700px;
+  line-height: 2.5;
+  margin-top: 2em;
+}
+
+.imageContainer{
+  padding: 1em 1em 1em 0em;
+  border: 1px solid white
+}
+
+.separator{
+  height: 60px;
+  width: 800px;
+  margin-top: 3em;
+}
+
+.separatorDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: white;
+  text-align: center;
+}
+
+.productsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2em;
+  margin-bottom: 4em;
+}
+
+.product{
+  border: 1px solid white;
+  margin: 1.3em;
+}
+
+.product img{ 
+  margin: 1.3em;
+}
+
+.productTitle{
+  font-size: 22px;
+  margin-bottom: 0.8em;
+}
+
+.productPrice{
+  margin-bottom: 1.3em;
+}
+
+.review{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.reviewText{
+  line-height: 2;
+  color: white;
+  text-align: center;
+  max-width: 900px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.pic{
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 0.6em;
+}
+
+.footer{
+  margin-top: 8em;
+  padding: 4em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #299FF4;
+}
+
+.addButton{
+  background-color: #299FF4;
+  opacity: 1;
+  border: 1px solid white;
+  color: white;
+  padding: 1em;
+  margin-bottom: 1.3em;
+  border-radius: 7px; 
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dot{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  transform: rotate(48deg);
+}
+
+.midlane{
+  width: 130px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid white;
+}
+
+.underImageSeparator{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.8em;
+}
+
+.reviewTitle{
+  color: white;
+  text-align: center;
+  margin-bottom: 1.6em;
+}
+
+.reviewDiv{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notificationBubble{
+  background-color: #299FF4;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  right: 8px;
+}
+
+.carritoDiv{
+  background-color: white;
+  color:#100732;
+  position: fixed;
+  width: 800px;
+  height: 65vh;
+  top: 80px;
+  right: 20px;
+  z-index: 999;
+  border-radius: 10px;
+  padding: 3em;
+  box-shadow: 1px 10px 25px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 10px 25px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 10px 25px -8px rgba(0,0,0,0.75);
+}
+
+.carritoHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid rgb(238, 238, 238);
+  padding-bottom: 1em;
+  font-weight: bolder;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.compesation{
+  width: 150px;
+}
+
+.productsList{
+  overflow-y: scroll;
+  height: 480px;
+  padding-right: 2em;
+}
+
+.totalPrice{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+
+.mobileIcon{
+  padding: 1em;
+  display: none;
+}
+
+.mobileMenu{
+  background-color: white;
+  color: #100732;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileList{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobileList li {
+  padding-left: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  list-style: none;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.linkMenu{
+  color: #100732;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .mobileIcon{
+    display: block;
+  }
+
+  .featuresDiv{
+    align-items: center;
+    background-color: white;
+    display: none;
+  }
+
+  .rectangle{
+    background-image: none;
+  }
+
+  .featureDescription{
+    display: none;
+  }
+
+  .Card-Star{
+    height: 140px;
+    width: 110px;
+    padding: 0px;
+  }
+
+  .card-item{
+    margin: 0px;
+  }
+
+  .descriptionInnerDiv{
+    flex-direction: column;
+  }
+
+  .descriptionText{
+    font-size: 14px;
+  }
+
+  .imageContainer{
+    padding: 1em;
+    margin-bottom: 3em;
+  }
+
+  .separator{
+    width: 300px;
+    height: 30px;
+  }
+
+  .reviewText{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .separatorTitle{
+    width: 300px
+  }
+
+  .navList{
+    display: none;
+  }
+
+  .productsDiv{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

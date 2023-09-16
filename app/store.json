@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "producto": "Camiseta",
+      "img": "https://pixabay.com/get/ge445ede5004e708af1e8581efb291a692eb037b394d44e090a644bee13e6912166255fc7987e566dece1ad3a75dd9f103495a06c7c52edf15c42fb681bedf834_1280.jpg",
+      "stock": 100,
+      "precio": 20.99,
+      "descripcion": "Una camiseta cómoda y elegante.",
+      "valoracion": 4.5
+    },
+    {
+      "id": 2,
+      "producto": "Pantalones",
+      "img": "https://pixabay.com/get/gc9f31003c625a298853bc845ff6f95867285501a91dc669b4e273c8ba8416db0d1726e5e351933703901818a3c092f8c665ac7a6c7ea1f620d4fd15f6e5687f9_1280.jpg",
+      "stock": 50,
+      "precio": 39.99,
+      "descripcion": "Pantalones de mezclilla de alta calidad.",
+      "valoracion": 4.2
+    },
+    {
+      "id": 3,
+      "producto": "Vestido",
+      "img": "https://pixabay.com/get/gc0aec5673280daf65fdae8821983dc134595e4f414e2bbd3239d214c2fd1b436a99e17d97d8a52ab85d2e8afb15b3faff298520079de729b833a2720f5bfb2d8_1280.jpg",
+      "stock": 30,
+      "precio": 49.99,
+      "descripcion": "Un vestido perfecto para ocasiones especiales.",
+      "valoracion": 4.8
+    },
+    {
+      "id": 4,
+      "producto": "Zapatos",
+      "img": "https://pixabay.com/get/g856de1020dbd8cd742e466e8373d902f24f0c99fe37744d31548149a1d8bd81d534a9f55f35ce5faf860c8691a1d7a83b115994834f4edf8a2f5e38b2f5555b4_1280.jpg",
+      "stock": 70,
+      "precio": 29.99,
+      "descripcion": "Zapatos elegantes y cómodos para cualquier ocasión.",
+      "valoracion": 4.4
+    },
+    {
+      "id": 5,
+      "producto": "Hoodie",
+      "img": "https://pixabay.com/get/g9f8efdac74d289756cd0ca512dacf8da6ff544b7f14613aa1f25c874977e3aa3d7d2f50386dfb5739abc7838889e564f40c52bc21c092abb6b01a7f72d8bd1eb_1280.jpg",
+      "stock": 70,
+      "precio": 29.99,
+      "descripcion": "Zapatos elegantes y cómodos para cualquier ocasión.",
+      "valoracion": 4.4
+    },
+    {
+      "id": 6,
+      "producto": "Traje Azul",
+      "img": "https://pixabay.com/get/g32d499def03c91ede892a2023bd324ae2ff7704df7b921065c107ba30ae31fe541715f15ca1f74854b1be0bdc21abea03607f9d674890f356df72190193a443f_1280.jpg",
+      "stock": 70,
+      "precio": 29.99,
+      "descripcion": "Zapatos elegantes y cómodos para cualquier ocasión.",
+      "valoracion": 4.4
+    },
+    {
+      "id": 7,
+      "producto": "Anillos",
+      "img": "https://pixabay.com/get/g2caccb28c0c17c6f38f36c5a656665d610c336289f4fc260c59475fc5feedfe105eecbfda12a6c7b2435e0f2a89eac654b601d9cc9b303d4f3cb0800874d6274_1280.jpg",
+      "stock": 70,
+      "precio": 29.99,
+      "descripcion": "Zapatos elegantes y cómodos para cualquier ocasión.",
+      "valoracion": 4.4
+    }
+  ]
+  
