@@ -6,7 +6,7 @@ import { useState } from "react"
 import Hero from "@/components/Hero"
 import Features from "@/components/Features"
 import Description from "@/components/Description"
-import Products from "@/components/products"
+import Products from "@/components/Products"
 import Review from "@/components/Review"
 import Footer from "@/components/Footer"
 //informacion de los productos
